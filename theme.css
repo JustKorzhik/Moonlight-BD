@@ -151,6 +151,12 @@
 .accountProfilePopoutWrapper_b2ca13 {
     left: 5px;
 }
+
+.colorDefault_d90b3d.focused_d90b3d {
+    background-color: var(--interactive-hover);
+    color: var(--white);
+}
+
 /*
 
     ███████╗ ██████╗ ██████╗     ██████╗ ██╗     ██╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
