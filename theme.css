@@ -66,6 +66,8 @@
     --background-floating: #0f1318;
     --background-mobile-primary: #191f28;
     --background-mobile-secondary: #141a22;
+    --bg-surface-overlay: var(--background-secondary);
+    --bg-surface-raised: #252a32;
     
     /* Акцентные цвета */
     --background-accent: #c69f68;
@@ -95,10 +97,26 @@
     --channeltextarea-background: #141a22;
     --scrollbar-auto-thumb: #4b5975;
     --scrollbar-auto-track: #0f1318;
+
+    --accent: #c69f68;
+
+    /* Цвета для ошибок и предупреждений */
+    --text-danger: #b81b2c;
+    --status-danger: #b81b2c;
+    --status-danger-background: #84131f;
+    
+    /* Дополнительные переменные для совместимости */
+    --info-danger-foreground: #b81b2c;
+    --info-danger-background: #84131f;
+    --background-danger: #84131f;
 }
 
 .repliedMessage_f9f2ca .repliedTextPreview_f9f2ca .repliedTextContent_f9f2ca, .threadMessageAccessory_f9f2ca .threadMessageAccessoryPreview_f9f2ca .threadMessageAccessoryContent_f9f2ca {
     color: var(--text-normal);
+}
+
+.addStatusPrompt_af9888 {
+    color: var(--header-primary);
 }
 
 /* Подсветка при выделении текста */
