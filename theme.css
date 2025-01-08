@@ -68,6 +68,7 @@
     --background-mobile-secondary: #141a22;
     --bg-surface-overlay: var(--background-secondary);
     --bg-surface-raised: #252a32;
+    --background-nested-floating: var(--background-secondary);
     
     /* Акцентные цвета */
     --background-accent: #c69f68;
