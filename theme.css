@@ -1,0 +1,194 @@
+/*
+
+    ██████╗ ███████╗███████╗ █████╗ ██╗   ██╗██╗  ████████╗
+    ██╔══██╗██╔════╝██╔════╝██╔══██╗██║   ██║██║  ╚══██╔══╝
+    ██║  ██║█████╗  █████╗  ███████║██║   ██║██║     ██║   
+    ██║  ██║██╔══╝  ██╔══╝  ██╔══██║██║   ██║██║     ██║   
+    ██████╔╝███████╗██║     ██║  ██║╚██████╔╝███████╗██║ 
+
+*/
+
+:root {
+    --background-primary: #191f28;
+    --background-secondary: #141a22;
+    --background-secondary-alt: #141a22;
+    --background-tertiary: #0f1318;
+    --background-floating: #0f1318;
+    
+    /* Акцентные цвета */
+    --background-accent: #c69f68;
+    --text-brand: #c69f68;
+    --interactive-active: #ccccb5;
+    --interactive-hover: #c69f68;
+    --interactive-normal: #ccccb5;
+    
+    /* Текстовые цвета */
+    --text-normal: #ccccb5;
+    --text-muted: #4b5975;
+    --text-link: #c69f68;
+    --header-primary: #ccccb5;
+    --header-secondary: #4b5975;
+    
+    /* Модификаторы */
+    --background-modifier-hover: rgba(198, 159, 104, 0.1);
+    --background-modifier-active: rgba(198, 159, 104, 0.2);
+    --background-modifier-selected: rgba(198, 159, 104, 0.3);
+    
+    /* Статусы */
+    --status-danger: #b81b2c;
+    --status-warning: #c69f68;
+    --status-positive: #8f744b;
+    
+    /* Дополнительные элементы */
+    --channeltextarea-background: #141a22;
+    --scrollbar-auto-thumb: #4b5975;
+    --scrollbar-auto-track: #0f1318;
+    
+    --accent: #c69f68;
+
+    /* Цвета для ошибок и предупреждений */
+    --text-danger: #b81b2c;
+    --status-danger: #b81b2c;
+    --status-danger-background: #84131f;
+    
+    /* Дополнительные переменные для совместимости */
+    --info-danger-foreground: #b81b2c;
+    --info-danger-background: #84131f;
+    --background-danger: #84131f;
+}
+
+.theme-dark {
+    /* Основные цвета фона */
+    --background-primary: #191f28;
+    --background-secondary: #141a22;
+    --background-secondary-alt: #141a22;
+    --background-tertiary: #0f1318;
+    --background-floating: #0f1318;
+    --background-mobile-primary: #191f28;
+    --background-mobile-secondary: #141a22;
+    
+    /* Акцентные цвета */
+    --background-accent: #c69f68;
+    --text-brand: #c69f68;
+    --interactive-active: #ccccb5;
+    --interactive-hover: #c69f68;
+    --interactive-normal: #ccccb5;
+    
+    /* Текстовые цвета */
+    --text-normal: #ccccb5;
+    --text-muted: #4b5975;
+    --text-link: #c69f68;
+    --header-primary: #ccccb5;
+    --header-secondary: #4b5975;
+    
+    /* Модификаторы */
+    --background-modifier-hover: rgba(198, 159, 104, 0.1);
+    --background-modifier-active: rgba(198, 159, 104, 0.2);
+    --background-modifier-selected: rgba(198, 159, 104, 0.3);
+    
+    /* Статусы */
+    --status-danger: #b81b2c;
+    --status-warning: #c69f68;
+    --status-positive: #8f744b;
+    
+    /* Дополнительные элементы */
+    --channeltextarea-background: #141a22;
+    --scrollbar-auto-thumb: #4b5975;
+    --scrollbar-auto-track: #0f1318;
+}
+
+.repliedMessage_f9f2ca .repliedTextPreview_f9f2ca .repliedTextContent_f9f2ca, .threadMessageAccessory_f9f2ca .threadMessageAccessoryPreview_f9f2ca .threadMessageAccessoryContent_f9f2ca {
+    color: var(--text-normal);
+}
+
+/* Подсветка при выделении текста */
+::selection {
+    background-color: rgba(198, 159, 104, 0.3);
+    color: #ccccb5;
+}
+
+/* Цвет каретки в текстовых полях */
+.inputDefault-3FGxgL {
+    caret-color: #8f744b;
+}
+
+/* Стили для сообщений об ошибках */
+.errorMessage-1kMqS1 {
+    color: #b81b2c;
+    background-color: rgba(132, 19, 31, 0.1);
+}
+
+/* Подсветка опасных действий */
+.colorDanger-2qLCe1 {
+    color: #b81b2c;
+    background-color: #84131f;
+}
+
+.scroller_fea3ef {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 12px 0 0;
+    flex: 0 1 auto;
+}
+
+.wrapper_fea3ef {
+    order: 3;
+}
+
+.pill_a5ad63 {
+    left: 65px;
+}
+
+.panels_a4d4d9 {
+    order: -1;
+}
+
+.pill_f9623d {
+    left: 65px;
+}
+
+.accountProfilePopoutWrapper_b2ca13 {
+    left: 5px;
+}
+/*
+
+    ███████╗ ██████╗ ██████╗     ██████╗ ██╗     ██╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
+    ██╔════╝██╔═══██╗██╔══██╗    ██╔══██╗██║     ██║   ██║██╔════╝ ██║████╗  ██║██╔════╝
+    █████╗  ██║   ██║██████╔╝    ██████╔╝██║     ██║   ██║██║  ███╗██║██╔██╗ ██║███████╗
+    ██╔══╝  ██║   ██║██╔══██╗    ██╔═══╝ ██║     ██║   ██║██║   ██║██║██║╚██╗██║╚════██║
+    ██║     ╚██████╔╝██║  ██║    ██║     ███████╗╚██████╔╝╚██████╔╝██║██║ ╚████║███████║
+    ╚═╝      ╚═════╝ ╚═╝  ╚═╝    ╚═╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
+
+*/
+
+.button_Jt-tIg { /* Plugin ReadAllNotificationsButton: button "read all" */
+    border-radius: 64px;
+}
+
+/*
+
+    ███████╗ ██████╗ ██████╗     ██████╗ ███████╗████████╗████████╗███████╗██████╗ 
+    ██╔════╝██╔═══██╗██╔══██╗    ██╔══██╗██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
+    █████╗  ██║   ██║██████╔╝    ██████╔╝█████╗     ██║      ██║   █████╗  ██████╔╝
+    ██╔══╝  ██║   ██║██╔══██╗    ██╔══██╗██╔══╝     ██║      ██║   ██╔══╝  ██╔══██╗
+    ██║     ╚██████╔╝██║  ██║    ██████╔╝███████╗   ██║      ██║   ███████╗██║  ██║
+    ╚═╝      ╚═════╝ ╚═╝  ╚═╝    ╚═════╝ ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚═╝  ╚═╝
+
+*/
+
+.bd-addon-list .bd-addon-card:nth-child(even) .bd-addon-header {
+    background-color: var(--background-secondary); /* #141a22 - темно-синий */
+}
+
+.bd-addon-list .bd-addon-card:nth-child(odd) .bd-addon-header, .bd-addon-list.bd-grid-view .bd-addon-card .bd-addon-header {
+    background-color: var(--background-secondary); /* #191f28 - чуть светлее темно-синий */
+}
+
+.bd-addon-list .bd-addon-card:nth-child(odd), .bd-addon-list.bd-grid-view .bd-addon-card {
+    background-color: var(--background-primary);
+}
+
+.bd-addon-list .bd-addon-card:nth-child(even) {
+    background-color: var(--background-primary);
+}
