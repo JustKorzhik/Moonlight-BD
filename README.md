@@ -13,5 +13,5 @@ Background: `#191f28`\n
 
 `#c69f68`
 
-> [!Color]
+> [!NOTE]
 > test
