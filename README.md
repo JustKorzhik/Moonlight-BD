@@ -9,9 +9,8 @@ The repository was created to import css for themes.
 
 # Primary colors
 
-Background: `#191f28`\n
-
-`#c69f68`
+1. `#191f28`
+2. `#c69f68`
 
 > [!NOTE]
 > test
