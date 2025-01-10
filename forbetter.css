@@ -1,3 +1,14 @@
+/*
+
+    ███████╗ ██████╗ ██████╗     ██████╗ ███████╗████████╗████████╗███████╗██████╗ 
+    ██╔════╝██╔═══██╗██╔══██╗    ██╔══██╗██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
+    █████╗  ██║   ██║██████╔╝    ██████╔╝█████╗     ██║      ██║   █████╗  ██████╔╝
+    ██╔══╝  ██║   ██║██╔══██╗    ██╔══██╗██╔══╝     ██║      ██║   ██╔══╝  ██╔══██╗
+    ██║     ╚██████╔╝██║  ██║    ██████╔╝███████╗   ██║      ██║   ███████╗██║  ██║
+    ╚═╝      ╚═════╝ ╚═╝  ╚═╝    ╚═════╝ ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚═╝  ╚═╝
+
+*/
+
 .bd-addon-list .bd-addon-card:nth-child(even) .bd-addon-header {
     background-color: var(--background-secondary); /* #141a22 - темно-синий */
 }
@@ -12,4 +23,31 @@
 
 .bd-addon-list .bd-addon-card:nth-child(even) {
     background-color: var(--background-primary);
+}
+
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: var(--interactive-hover);
+}
+
+.bd-filled-checkmark {
+    background: var(--interactive-hover);
+}
+
+.bd-empty-updates svg {
+    fill: var(--interactive-hover);
+}
+
+.bd-button-filled.bd-button-color-brand {
+    color: var(--white-500);
+    background-color: var(--header-secondary);
+    height: 29px;
+}
+
+.bd-addon-controls .bd-button.selected {
+    background-color: var(--interactive-hover);
+}
+
+.bd-button-filled.bd-button-color-brand:disabled {
+    background-color: var(--header-secondary);
+    opacity: .4;
 }
