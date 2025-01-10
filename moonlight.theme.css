@@ -6,21 +6,15 @@
  * @source https://github.com/JustKorzhik/Moonlight-BD
  */
 
-@import url("https://justkorzhik.github.io/Moonlight-BD/theme.css");
+ @import url("https://justkorzhik.github.io/Moonlight-BD/theme.css");
 
-/*
-     ██████╗███████╗███████╗    ██╗   ██╗██████╗ ██╗     ███████╗
-    ██╔════╝██╔════╝██╔════╝    ██║   ██║██╔══██╗██║     ██╔════╝
-    ██║     ███████╗███████╗    ██║   ██║██████╔╝██║     ███████╗
-    ██║     ╚════██║╚════██║    ██║   ██║██╔══██╗██║     ╚════██║
-    ╚██████╗███████║███████║    ╚██████╔╝██║  ██║███████╗███████║
-    ╚═════╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
-
-    "https://justkorzhik.github.io/Moonlight-BD/(css)"
-    theme.css - all styles
-    default.css - discord styles
-    forbetter.css - better discord styles
-    forplugins.css - plugins styles
-    list plugins in css:
-        1. Read all notifications
-*/
+ /*
+    ██████╗ ██╗     ██╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗    ██╗     ██╗███████╗████████╗
+    ██╔══██╗██║     ██║   ██║██╔════╝ ██║████╗  ██║██╔════╝    ██║     ██║██╔════╝╚══██╔══╝
+    ██████╔╝██║     ██║   ██║██║  ███╗██║██╔██╗ ██║███████╗    ██║     ██║███████╗   ██║   
+    ██╔═══╝ ██║     ██║   ██║██║   ██║██║██║╚██╗██║╚════██║    ██║     ██║╚════██║   ██║   
+    ██║     ███████╗╚██████╔╝╚██████╔╝██║██║ ╚████║███████║    ███████╗██║███████║   ██║   
+    ╚═╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝    ╚══════╝╚═╝╚══════╝   ╚═╝   
+     list plugins in css:
+         1. Read all notifications
+ */
